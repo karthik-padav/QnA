@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular app';
+  user = {
+    name:'',
+    password:''
+  }
+  // submitted: boolean = false;
+  // log(x){ console.log(x); }
+  adminLogin(){console.log(this.user);}
+
+  ngOnInit(){
+    
+  }
 }

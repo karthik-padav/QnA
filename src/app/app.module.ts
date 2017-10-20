@@ -9,9 +9,13 @@ import { HtmlIqnAComponent } from './html-iqn-a/html-iqn-a.component';
 import { environment } from '../environments/environment';
 
 import { AngularFireModule } from 'angularfire2';
-
-// New imports to update based on AngularFire2 version 4
+// for AngularFireDatabase
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/database-deprecated';
+// for AngularFireAuth
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireAuth } from 'angularfire2/auth';
+import { FormsModule }   from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,10 +27,11 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
   imports: [
     BrowserModule,
     routes,
-    AngularFireModule.initializeApp(environment),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [AngularFireDatabase],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
