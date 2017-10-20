@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { AngularFireAuth } from 'angularfire2/auth';
-import { Observable } from 'rxjs/Observable';
+// import { Observable } from 'rxjs/Observable';
 import * as firebase from 'firebase/app';
 
 
@@ -12,15 +12,13 @@ import * as firebase from 'firebase/app';
 })
 export class HtmlIqnAComponent implements OnInit {
 
-  items: FirebaseListObservable<any[]>;
+  htmlQnA: FirebaseListObservable<any[]>;
   constructor(public af: AngularFireDatabase ) {
-    this.items = af.list('/QnA');
-    console.log(this.items);
+    this.htmlQnA = af.list('QnA/html');
    }
 
   ngOnInit() {
-    console.log('html init');
-    console.log(this.items);
+    
   }
 
 }
