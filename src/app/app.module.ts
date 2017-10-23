@@ -4,7 +4,7 @@ import { routes } from './app.router';
 import { AppComponent } from './app.component';
 import { InterviewQComponent } from './interview-q/interview-q.component';
 import { ApptiComponent } from './appti/appti.component';
-import { HtmlIqnAComponent } from './html-iqn-a/html-iqn-a.component';
+import { HtmlIqnAComponent } from './interview-q/html-iqn-a/html-iqn-a.component';
 
 import { environment } from '../environments/environment';
 
@@ -16,13 +16,15 @@ import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/data
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { FormsModule }   from '@angular/forms';
+import { HtmlAptiComponent } from './appti/html-apti/html-apti.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InterviewQComponent,
     ApptiComponent,
-    HtmlIqnAComponent
+    HtmlIqnAComponent,
+    HtmlAptiComponent
   ],
   imports: [
     BrowserModule,

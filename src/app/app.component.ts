@@ -10,8 +10,6 @@ export class AppComponent {
     name:'',
     password:''
   }
-  // submitted: boolean = false;
-  // log(x){ console.log(x); }
   adminLogin(){console.log(this.user);}
 
   ngOnInit(){
