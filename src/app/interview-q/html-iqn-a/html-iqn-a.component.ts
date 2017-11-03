@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database-deprecated';
-import { AngularFireAuth } from 'angularfire2/auth';
-// import { Observable } from 'rxjs/Observable';
-import * as firebase from 'firebase/app';
+import { MyDataService } from './../../my-data.service';
 
 
 @Component({
@@ -10,15 +7,20 @@ import * as firebase from 'firebase/app';
   templateUrl: './html-iqn-a.component.html',
   styleUrls: ['./html-iqn-a.component.css']
 })
-export class HtmlIqnAComponent implements OnInit {
+export class HtmlIqnAComponent {
 
-  htmlQnA: FirebaseListObservable<any[]>;
-  constructor(public af: AngularFireDatabase ) {
-    this.htmlQnA = af.list('QnA/html');
-   }
+ constructor (private newService: MyDataService){
+
+  }
+
+results: any;
 
   ngOnInit() {
-    
+  	this.newService.htmlQnAJson().subscribe(
+  		data => {this.results = data['results'];}
+  	)
+
+  	console.log(this.results)
   }
 
 }
