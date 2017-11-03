@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyDataService } from './my-data.service';
 
 @Component({
   selector: 'app-root',
@@ -6,13 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  user = {
-    name:'',
-    password:''
+
+  constructor (private newService: MyDataService){
+
   }
-  adminLogin(){console.log(this.user);}
 
   ngOnInit(){
-    
   }
 }

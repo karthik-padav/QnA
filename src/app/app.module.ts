@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { routes } from './app.router';
 import { AppComponent } from './app.component';
+import { MyDataService } from './my-data.service';
 import { InterviewQComponent } from './interview-q/interview-q.component';
 import { ApptiComponent } from './appti/appti.component';
 import { HtmlIqnAComponent } from './interview-q/html-iqn-a/html-iqn-a.component';
@@ -17,6 +18,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { FormsModule }   from '@angular/forms';
 import { HtmlAptiComponent } from './appti/html-apti/html-apti.component';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -29,11 +31,12 @@ import { HtmlAptiComponent } from './appti/html-apti/html-apti.component';
   imports: [
     BrowserModule,
     routes,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [AngularFireDatabase],
+  providers: [
+    MyDataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
