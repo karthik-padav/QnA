@@ -1,0 +1,29 @@
+<div class="container-fluid nav-margin-bottom">
+  <div class="row">
+    <div class="col col-sm-2">
+      <app-qn-a-sidebar></app-qn-a-sidebar>
+    </div>
+    <div class="col col-sm-7">
+      <h3>{{QnAjson?.title}}</h3>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default" *ngFor="let QnA of QnAjson?.qna">
+          <div class="panel-heading">
+            <p>id {{ QnA.id }}</p>
+            <p>{{ QnA.question }}</p>
+            <h4 class="panel-title text-right">
+              <a data-toggle="collapse" data-parent="#accordion" href="{{'#collapse' + QnA.id}}">Answer</a>
+            </h4>
+          </div>
+          <div id="{{'collapse' + QnA.id}}" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>{{ QnA.answer }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-sm-3">
+      add
+    </div>
+  </div>
+</div>

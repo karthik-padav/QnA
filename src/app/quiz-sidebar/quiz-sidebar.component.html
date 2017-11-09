@@ -1,0 +1,13 @@
+<ul class="list-group">
+  <a [routerLink]="['../html-apti']">
+    <li class="list-group-item" [ngClass]="{'active': activePath == 'html-apti'}">
+      Html
+    </li>
+  </a>
+  <a [routerLink]="['../c-apti']">
+    <li class="list-group-item" [ngClass]="{'active': activePath == 'c-apti'}">
+      C
+    </li>
+  </a>
+  <li class="list-group-item">{{activePath}}</li>
+</ul>

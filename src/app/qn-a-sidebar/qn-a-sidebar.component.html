@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <li class="list-group-item"
+    (click) = "goToQnA(qnaLang.fileName)"
+    *ngFor = "let qnaLang of interviewLangList?.langList"
+    [ngClass] = "(qnaLang.fileName == activePath)?'active':''">
+      {{qnaLang.lang}}
+    </li>
+</ul>

@@ -1,0 +1,20 @@
+{
+    "title": "PHP",
+    "qna": [
+        {
+            "id": "1",
+            "question": "php",
+            "answer": "php"
+        },
+        {
+            "id": "2",
+            "question": "Q",
+            "answer": "A"
+        },
+        {
+            "id": "3",
+            "question": "Q",
+            "answer": "A"
+        }
+    ]
+}

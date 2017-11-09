@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MyDataService } from './../my-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-appti',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApptiComponent implements OnInit {
 
-  constructor() { }
+  apptiLangList: any[];
+  constructor(private newService: MyDataService,
+              private router: Router) { }
 
   ngOnInit() {
+    this.newService.aptiLangList().subscribe((data) => {this.apptiLangList = data;console.log(this.apptiLangList);});
+  }
+
+  goToQnA(lang){
+    this.router.navigate(['/appti', lang]);
   }
 
 }

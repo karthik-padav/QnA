@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MyDataService } from './../../my-data.service';
 import { Observable, Subscription } from 'rxjs/Rx';
+import { QuizSidebarComponent } from './../../quiz-sidebar/quiz-sidebar.component';
 
 @Component({
   selector: 'app-html-apti',

@@ -1,0 +1,20 @@
+{
+    "title": "JavaScript",
+    "qna": [
+        {
+            "id": "1",
+            "question": "javascript",
+            "answer": "javascript"
+        },
+        {
+            "id": "2",
+            "question": "Q",
+            "answer": "A"
+        },
+        {
+            "id": "3",
+            "question": "Q",
+            "answer": "A"
+        }
+    ]
+}

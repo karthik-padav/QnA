@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MyDataService } from './../my-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-interview-q',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterviewQComponent implements OnInit {
 
-  constructor() { }
+  interviewLangList: any[];
+  constructor( private newService: MyDataService,
+                private router: Router
+              ) { }
 
   ngOnInit() {
+    this.newService.interviewLangList().subscribe((data) => {this.interviewLangList = data});
+  }
+
+  goToQnA(lang){
+    this.router.navigate(['/interview-q', lang]);
   }
 
 }

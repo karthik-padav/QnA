@@ -8,16 +8,26 @@ export class MyDataService {
   constructor(private http: Http) { }
 
   // Interview Questions
+  // List of languages for Interview Questions
+  interviewLangList(){
+    return this.http.get('../assets/data/QnA/langList.json')
+    .map(response => response.json())
+  }
+  // List of languages for Apti
+  aptiLangList(){
+    return this.http.get('../assets/data/appti/apptiList.json')
+    .map(response => response.json())
+  }
+
   // Html QnA
-  htmlQnAJson(){
-    return this.http.get('../assets/QnA/html.json')
+  getQnA(page){
+    return this.http.get('../assets/data/QnA/' + page + '.json')
     .map(response => response.json())
   }
 
   // Appti Questions
-  // Html
   htmlApptiQnA(){
-    return this.http.get('../assets/appti/html.json')
+    return this.http.get('../assets/data/appti/html.json')
     .map(response => response.json())
   }
 

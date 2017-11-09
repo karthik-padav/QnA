@@ -1,0 +1,20 @@
+{
+    "title": "Wordpress",
+    "qna": [
+        {
+            "id": "1",
+            "question": "wordpress",
+            "answer": "wordpress"
+        },
+        {
+            "id": "2",
+            "question": "Q",
+            "answer": "A"
+        },
+        {
+            "id": "3",
+            "question": "Q",
+            "answer": "A"
+        }
+    ]
+}

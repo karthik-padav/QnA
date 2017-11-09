@@ -1,0 +1,20 @@
+{
+    "title": "jQuery",
+    "qna": [
+        {
+            "id": "1",
+            "question": "jquery",
+            "answer": "jquery"
+        },
+        {
+            "id": "2",
+            "question": "Q",
+            "answer": "A"
+        },
+        {
+            "id": "3",
+            "question": "Q",
+            "answer": "A"
+        }
+    ]
+}

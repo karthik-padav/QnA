@@ -1,63 +1,68 @@
-<div class="container">
-  <div *ngIf="startQuizWrapper" class="">
-      <button type="button" (click)="displayQuiz()" class="btn btn-success">Start Quiz</button>  
-  </div>
-
-  <div *ngIf="quizWrapper" class="">
-      <form>
-        <h3>{{ randomQnAList.question }}</h3>
-        <div class="radio">
-          <label>
-            <input type="radio"
-              name="randomQnAList.option1"
-              [(ngModel)]="radioValue"
-              [value]="randomQnAList.option1"> {{randomQnAList.option1}}
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio"
-              name="randomQnAList.option2"
-              [(ngModel)]="radioValue"
-              [value]="randomQnAList.option2"> {{randomQnAList.option2}}
-        </label>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col col-sm-3">
+          <app-quiz-sidebar></app-quiz-sidebar>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio"
-            name="randomQnAList.option3"
-            [(ngModel)]="radioValue"
-            [value]="randomQnAList.option3"> {{randomQnAList.option3}}
-        </label>
+      <div class="col col-sm-3">
+        <div *ngIf="startQuizWrapper" class="">
+              <button type="button" (click)="displayQuiz()" class="btn btn-success">SQ</button>  
+          </div>
+          <div *ngIf="quizWrapper" class="">
+              <form>
+                <h3>{{ randomQnAList.question }}</h3>
+                <div class="radio">
+                  <label>
+                    <input type="radio"
+                      name="randomQnAList.option1"
+                      [(ngModel)]="radioValue"
+                      [value]="randomQnAList.option1"> {{randomQnAList.option1}}
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio"
+                      name="randomQnAList.option2"
+                      [(ngModel)]="radioValue"
+                      [value]="randomQnAList.option2"> {{randomQnAList.option2}}
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio"
+                    name="randomQnAList.option3"
+                    [(ngModel)]="radioValue"
+                    [value]="randomQnAList.option3"> {{randomQnAList.option3}}
+                </label>
+              </div>
+                <button type="button"
+                  [disabled]="!radioValue"
+                  (click)="SubmitAnswer(randomQnAList, radioValue)"
+                  class="btn btn-success">Next</button>
+              </form>
+              <h3>
+                {{hoursDisplay ? hoursDisplay : '00'}} : {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}}    
+              </h3><br>
+              <h3>{{currentQuestion + 1}}/{{numberOfQustions}}</h3>
+          </div>
+        
+          <div *ngIf="quizResultWrapper" class="quiz-results">
+            <h1>Results</h1>
+              <h2>Total Mark:</h2>
+                <p>{{totalMark}}/{{numberOfQustions}}</p>
+                <p>{{((totalMark / numberOfQustions) * 100).toFixed(2)}}%</p>
+                <h2>Total Time spent
+                {{totalHoursDisplay ? totalHoursDisplay : '00'}} : {{(totalMinutesDisplay) && (totalMinutesDisplay <= 59) ? totalMinutesDisplay : '00'}} : {{(totalSecondsDisplay) && (totalSecondsDisplay <= 59) ? totalSecondsDisplay : '00'}}        
+                </h2>
+              <ul *ngFor="let quizResults of apptiResult">
+                <li>
+                  <h3>{{quizResults.question}}</h3>
+                  <span><b>You answered:</b> {{quizResults.clientAnswer}}</span>
+                  <span class="" *ngIf="quizResults.clientAnswer == quizResults.answer">Correct Answer!</span>
+                  <span class="" *ngIf="quizResults.clientAnswer !== quizResults.answer">Wrong Answer!</span>
+                  <p *ngIf="quizResults.clientAnswer !== quizResults.answer"><b>Correct Answer:</b> {{quizResults.answer}}</p>
+                </li>
+              </ul>
+              <button type="button" (click)="ngOnInit()" class="btn btn-success">Retry</button>      
+            </div>
       </div>
-        <button type="button"
-          [disabled]="!radioValue"
-          (click)="SubmitAnswer(randomQnAList, radioValue)"
-          class="btn btn-success">Next</button>
-      </form>
-      <h3>
-        {{hoursDisplay ? hoursDisplay : '00'}} : {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}}    
-      </h3><br>
-      <h3>{{currentQuestion + 1}}/{{numberOfQustions}}</h3>
-  </div>
-
-  <div *ngIf="quizResultWrapper" class="quiz-results">
-    <h1>Results</h1>
-      <h2>Total Mark:</h2>
-        <p>{{totalMark}}/{{numberOfQustions}}</p>
-        <p>{{((totalMark / numberOfQustions) * 100).toFixed(2)}}%</p>
-        <h2>Total Time spent
-        {{totalHoursDisplay ? totalHoursDisplay : '00'}} : {{(totalMinutesDisplay) && (totalMinutesDisplay <= 59) ? totalMinutesDisplay : '00'}} : {{(totalSecondsDisplay) && (totalSecondsDisplay <= 59) ? totalSecondsDisplay : '00'}}        
-        </h2>
-      <ul *ngFor="let quizResults of apptiResult">
-        <li>
-          <h3>{{quizResults.question}}</h3>
-          <span><b>You answered:</b> {{quizResults.clientAnswer}}</span>
-          <span class="" *ngIf="quizResults.clientAnswer == quizResults.answer">Correct Answer!</span>
-          <span class="" *ngIf="quizResults.clientAnswer !== quizResults.answer">Wrong Answer!</span>
-          <p *ngIf="quizResults.clientAnswer !== quizResults.answer"><b>Correct Answer:</b> {{quizResults.answer}}</p>
-        </li>
-      </ul>
-      <button type="button" (click)="ngOnInit()" class="btn btn-success">Retry</button>      
-    </div>
 </div>
