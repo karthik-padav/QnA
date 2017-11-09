@@ -9,16 +9,19 @@ import { HtmlIqnAComponent } from './interview-q/html-iqn-a/html-iqn-a.component
 
 import { environment } from '../environments/environment';
 
-import { AngularFireModule } from 'angularfire2';
-// for AngularFireDatabase
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/database-deprecated';
-// for AngularFireAuth
-import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AngularFireAuth } from 'angularfire2/auth';
+// import { AngularFireModule } from 'angularfire2';
+// // for AngularFireDatabase
+// import { AngularFireDatabaseModule } from 'angularfire2/database';
+// import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/database-deprecated';
+// // for AngularFireAuth
+// import { AngularFireAuthModule } from 'angularfire2/auth';
+// import { AngularFireAuth } from 'angularfire2/auth';
 import { FormsModule }   from '@angular/forms';
 import { HtmlAptiComponent } from './appti/html-apti/html-apti.component';
 import { HttpModule } from '@angular/http';
+import { QuizSidebarComponent } from './quiz-sidebar/quiz-sidebar.component';
+import { CAptiComponent } from './appti/c-apti/c-apti.component';
+import { QnASidebarComponent } from './qn-a-sidebar/qn-a-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { HttpModule } from '@angular/http';
     InterviewQComponent,
     ApptiComponent,
     HtmlIqnAComponent,
-    HtmlAptiComponent
+    HtmlAptiComponent,
+    QuizSidebarComponent,
+    CAptiComponent,
+    QnASidebarComponent
   ],
   imports: [
     BrowserModule,

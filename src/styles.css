@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+/* generated element for shine effect.
+ * normal state is semi-transparent
+ * white but with zero width. Set no
+ * transition here for no mouse-leave
+ * animations. Otherwise the effect
+ * will play in reverse when your mouse
+ * leaves the element
+ */
+ .shineOnHover:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    
+}
+/* on hover we animate the width to
+ * 100% and opacity to 0 so the element
+ * grows and fades out 
+ */
+.shineOnHover:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+body {
+    font-size: 150%;
+    font-family: 'Open Sans', sans-serif;
+}
+.root-wrapper {
+    margin-top: 125px;
+}
+.navbar {
+    transform: skewY(-4deg);
+    transform-origin: 0;
+    height: 125px;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    border-radius: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.navbar > div {
+    transform: skewY(4deg);
+    transform-origin: 0;
+}
+/* BG Colors */
+.light-orange{
+    background-color: #fdf3d8;
+    border-color: #f6c444;
+}
+.light-pink{
+    background-color: #fae3e9;
+    border-color: #e97891;
+}
+.light-blue{
+    background-color: #e3edf9;
+    border-color: #71a6e0
+}
+.light-purple{
+    background-color: #f4e9f7;
+    border-color: #c18ed8;
+}
+.light-green{
+    background-color: #cef6ed;
+    border-color: #08d3a4;
+}
+
+.lang-list .lang-logo {
+    height: 80px;
+}
+.lang-list .lang-logo img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.lang-list .lang-box {
+    padding: 15px 10px;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    margin-bottom: 15px;
+}
+.lang-list a {
+    text-decoration: none;
+}
