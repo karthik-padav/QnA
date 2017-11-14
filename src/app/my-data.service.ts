@@ -14,7 +14,7 @@ export class MyDataService {
     .map(response => response.json())
   }
   // List of languages for Apti
-  aptiLangList(){
+  quizLangList(){
     return this.http.get('../assets/data/appti/apptiList.json')
     .map(response => response.json())
   }
@@ -26,8 +26,8 @@ export class MyDataService {
   }
 
   // Appti Questions
-  htmlApptiQnA(){
-    return this.http.get('../assets/data/appti/html.json')
+  quizQnA(page){
+    return this.http.get('../assets/data/appti/' + page + '.json')
     .map(response => response.json())
   }
 

@@ -10,7 +10,6 @@ import { MyDataService } from './../../my-data.service';
 export class QnaComponent implements OnInit {
   QnAjson;
   activePath;
-  paramsSubscription;
   constructor(private routeParams: ActivatedRoute,
               private dataService: MyDataService) {
       // Get file name from Route parameter

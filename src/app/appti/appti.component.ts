@@ -14,10 +14,10 @@ export class ApptiComponent implements OnInit {
               private router: Router) { }
 
   ngOnInit() {
-    this.newService.aptiLangList().subscribe((data) => {this.apptiLangList = data;console.log(this.apptiLangList);});
+    this.newService.quizLangList().subscribe((data) => {this.apptiLangList = data;console.log(this.apptiLangList);});
   }
 
-  goToQnA(lang){
+  goToQuiz(lang){
     this.router.navigate(['/appti', lang]);
   }
 

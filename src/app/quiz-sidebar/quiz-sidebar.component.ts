@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+import { MyDataService } from './../my-data.service';
 
 @Component({
   selector: 'app-quiz-sidebar',
@@ -8,15 +9,21 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class QuizSidebarComponent implements OnInit {
   activePath;
+  quizLangList;
   constructor(
-    private activatedRoute: ActivatedRoute) {
-      console.log(activatedRoute);
+    private activatedRoute: ActivatedRoute,
+    private dataService: MyDataService,
+    private router: Router) {
+      this.dataService.quizLangList().subscribe((data) => {this.quizLangList = data;})
       this.activePath = activatedRoute.snapshot.url[activatedRoute.snapshot.url.length - 1].path;
   }
 
   ngOnInit() {
-    console.log('sidebar init');
+  }
 
+  goToQuiz(lang){
+    this.router.navigate(['/appti',lang]);
+    this.activePath = lang;
   }
 
 }

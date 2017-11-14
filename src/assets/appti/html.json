@@ -1,0 +1,120 @@
+[{
+    "id": "1",
+    "question": "What does HTML stand for?",
+    "answer": "A1",
+    "option1":"Hyper Text Markup Language",
+    "option2":"Home Tool Markup Language",
+    "option3":"Hyperlinks and Text Markup Language"
+},
+{
+    "id": "2",
+    "question": "Q2",
+    "answer": "A2",
+    "option1":1 ,
+    "option2": "A2" ,
+    "option3":3 
+},
+{
+    "id": "3",
+    "question": "Q3",
+    "answer": "A3",
+    "option1":1 ,
+    "option2":2 ,
+    "option3":"A3"
+},
+{
+    "id": "4",
+    "question": "Q4",
+    "answer": "A4",
+    "option1":1 ,
+    "option2":2 ,
+    "option3":"A4"
+},
+{
+    "id": "5",
+    "question": "Q5",
+    "answer": "A5",
+    "option1":"A5",
+    "option2":2 ,
+    "option3":3
+},
+{
+    "id": "6",
+    "question": "Q6",
+    "answer": "A6",
+    "option1":1 ,
+    "option2":"A6",
+    "option3":3
+},
+{
+    "id": "7",
+    "question": "Q7",
+    "answer": "A7",
+    "option1":1 ,
+    "option2":2 ,
+    "option3":"A7"
+},
+{
+    "id": "8",
+    "question": "Q8",
+    "answer": "A8",
+    "option1":1 ,
+    "option2":"A8",
+    "option3":3
+},
+{
+    "id": "9",
+    "question": "Q9",
+    "answer": "A9",
+    "option1":1 ,
+    "option2":2 ,
+    "option3":"A9"
+},
+{
+    "id": "10",
+    "question": "Q10",
+    "answer": "A10",
+    "option1":"A10" ,
+    "option2":2 ,
+    "option3":3
+},
+{
+    "id": "11",
+    "question": "Q11",
+    "answer": "A11",
+    "option1":1 ,
+    "option2":"A11" ,
+    "option3":3
+},
+{
+    "id": "12",
+    "question": "Q12",
+    "answer": "A12",
+    "option1":1 ,
+    "option2":2 ,
+    "option3":"A12"
+},
+{
+    "id": "13",
+    "question": "Q13",
+    "answer": "A13",
+    "option1":"A13" ,
+    "option2":2 ,
+    "option3":3
+},
+{
+    "id": "14",
+    "question": "Q14",
+    "answer": "A14",
+    "option1":1 ,
+    "option2":"A14" ,
+    "option3":3
+},
+{
+    "id": "15",
+    "question": "Q15",
+    "answer": "A15",
+    "option1":1 ,
+    "option2":"A15" ,
+    "option3":3
+}]

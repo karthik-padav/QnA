@@ -1,13 +1,8 @@
 <ul class="list-group">
-  <a [routerLink]="['../html-apti']">
-    <li class="list-group-item" [ngClass]="{'active': activePath == 'html-apti'}">
-      Html
+    <li class="list-group-item"
+    (click) = "goToQuiz(quizLang.fileName)"
+    *ngFor = "let quizLang of quizLangList?.langList"
+    [ngClass] = "(quizLang.fileName == activePath)?'active':''">
+      {{quizLang.lang}}
     </li>
-  </a>
-  <a [routerLink]="['../c-apti']">
-    <li class="list-group-item" [ngClass]="{'active': activePath == 'c-apti'}">
-      C
-    </li>
-  </a>
-  <li class="list-group-item">{{activePath}}</li>
 </ul>
