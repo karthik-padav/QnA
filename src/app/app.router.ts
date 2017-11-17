@@ -11,11 +11,12 @@ import { AptitudeListComponent } from './aptitude-list/aptitude-list.component';
 import { AptitudeComponent } from './aptitude-list/aptitude/aptitude.component';
 import { GkListComponent } from './gk-list/gk-list.component';
 import { GkComponent } from './gk-list/gk/gk.component';
+import { HomeComponent } from './home/home.component';
 
 export const router: Routes = [
-    {path: '', redirectTo: 'interview-q', pathMatch: 'full'},
-    {path: 'interview-q', component: InterviewQComponent},
-    {path: 'interview-q/:name', component: QnaComponent},
+    {path: '', redirectTo: 'Home', pathMatch: 'full'},
+    {path: 'interview', component: InterviewQComponent},
+    {path: 'interview/:name', component: QnaComponent},
     {path: 'quiz', component: QuizListComponent},
     {path: 'quiz/:name', component: QuizComponent},
     {path: 'puzzles', component: PuzzlesComponent},
@@ -23,6 +24,7 @@ export const router: Routes = [
     {path: 'aptitude/:name', component: AptitudeComponent},
     {path: 'GK', component: GkListComponent},
     {path: 'GK/:name', component: GkComponent},
+    {path: 'Home', component: HomeComponent}
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);

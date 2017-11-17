@@ -19,6 +19,7 @@ import { AptitudeSidebarComponent } from './aptitude-list/aptitude-sidebar/aptit
 import { GkListComponent } from './gk-list/gk-list.component';
 import { GkComponent } from './gk-list/gk/gk.component';
 import { GkSidebarComponent } from './gk-list/gk-sidebar/gk-sidebar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { GkSidebarComponent } from './gk-list/gk-sidebar/gk-sidebar.component';
     GkListComponent,
     GkComponent,
     GkSidebarComponent,
+    HomeComponent,
     ],
   imports: [
     BrowserModule,

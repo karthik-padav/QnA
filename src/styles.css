@@ -44,20 +44,10 @@ body {
     margin-top: 125px;
 }
 .navbar {
-    transform: skewY(-4deg);
-    transform-origin: 0;
-    height: 125px;
-    border-bottom-width: 6px;
-    border-bottom-style: solid;
-    border-radius: 0;
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
-}
-.navbar > div {
-    transform: skewY(4deg);
-    transform-origin: 0;
+    z-index: 9999;
 }
 /* BG Colors */
 .light-orange{
@@ -80,16 +70,89 @@ body {
     background-color: #cef6ed;
     border-color: #08d3a4;
 }
+section {
+    padding-top: 50px;
+}
+.f-lg {
+    font-size: 20px;
+}
 
-.lang-list .lang-logo {
+/* Slider */
+.banner#myCarousel {
+    height: 400px;
+}
+.carousel-inner {
+    height: 100%;
+}
+.item.slider1 {
+    height: 100%;
+    background-image: url('./assets/img/blue.jpg');
+}
+.item.slider2 {
+    height: 100%;
+    background-image: url('./assets/img/yellow.jpg');
+}
+.item.slider3 {
+    height: 100%;
+    background-image: url('./assets/img/green.jpg');
+}
+/* Slider ends */
+
+/* Home */
+.home {
+    padding: 0;
+}
+.home .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.home .banner h1 {
+    font-size: 50px;
+}
+.banner-btn, .banner-btn:focus, .banner-btn:hover {
+    padding: 10px;
+    background: #1d1d1d2e;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.carousel-indicators .active {
+    background-color: #ffffff80;
+}
+.carousel-indicators li{
+    border: 1px solid #ffffff80;
+}
+.QnA-wrapper, .QnA-logo img {
+    width: 100px;
+}
+.view-more-btn p {
+    padding: 44px 0;
+    color: #242424;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+.quiz-wrapper, .quiz-logo img {
+    width: 100px;
+}
+
+/* Home ends */
+.lang-box .lang-logo {
     height: 80px;
 }
-.lang-list .lang-logo img {
+.lang-box .lang-logo img {
     height: auto;
     max-width: 100%;
     max-height: 100%;
 }
-.lang-list .lang-box {
+.lang-box {
     padding: 15px 10px;
     border-bottom-width: 6px;
     border-bottom-style: solid;
@@ -116,7 +179,7 @@ ol>li {
   counter-increment:item;
 }
  
-ol>li:before {
+.solution-css ol>li:before {
   display:inline-block;
   width:1.5em;
   padding-right:0.5em;

@@ -25,7 +25,7 @@ export class QnASidebarComponent implements OnInit {
   
   goToQnA(lang){
     console.log(lang);
-    this.router.navigate(['/interview-q',lang]);
+    this.router.navigate(['/interview',lang]);
     this.activePath = lang;
   }
 

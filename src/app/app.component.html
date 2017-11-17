@@ -1,34 +1,40 @@
-<nav class="navbar light-blue">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span> 
       </button>
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active">
-          <a routerLink="interview-q">I Q</a>
+        <li [ngClass]="(activePath == 'Home')?'active':''">
+          <a routerLink="Home">Home</a>
         </li>
-        <li>
+        <li [ngClass]="(activePath == 'interview')?'active':''">
+          <a routerLink="interview">I Q</a>
+        </li>
+        <li [ngClass]="(activePath == 'quiz')?'active':''">
           <a routerLink="quiz">quiz</a>
         </li>
-        <li>
+        <li [ngClass]="(activePath == 'puzzles')?'active':''">
           <a routerLink="puzzles">puzzles</a>
         </li>
-        <li>
+        <li [ngClass]="(activePath == 'aptitude')?'active':''">
           <a routerLink="aptitude">Aptitude</a>
         </li>
-        <li>
+        <li [ngClass]="(activePath == 'GK')?'active':''">
           <a routerLink="GK">GK</a>
         </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-  <router-outlet></router-outlet>
-
+<router-outlet></router-outlet>
