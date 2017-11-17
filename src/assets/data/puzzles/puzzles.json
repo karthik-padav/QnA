@@ -1,0 +1,26 @@
+{
+    "title": "Puzzles",
+    "qna": [
+        {
+            "id": "1",
+            "question": "What does HTML stand for?",
+            "answer": "A1",
+            "explanation": "The number of black dots in each grid increases by 1 each time, starting with the top left grid and working to the right, top row then bottom row.",
+            "img": "https://firebasestorage.googleapis.com/v0/b/questionandanswer-96480.appspot.com/o/images%2F3050613-inline-i-2-googles-new-logo-copy.png?alt=media&token=b1538402-2db3-44e9-87a4-fe036e372b07"
+        },
+        {
+            "id": "2",
+            "question": "What does HTML stand for?",
+            "answer": "A1",
+            "explanation": "The number of black dots in each grid increases by 1 each time, starting with the top left grid and working to the right, top row then bottom row.",
+            "img": "https://firebasestorage.googleapis.com/v0/b/questionandanswer-96480.appspot.com/o/images%2Fapi%20close.PNG?alt=media&token=4684ec02-f1b0-4e72-b26c-2dbea8e623d7"
+        },
+        {
+            "id": "3",
+            "question": "",
+            "answer": "A1",
+            "explanation": "The number of black dots in each grid increases by 1 each time, starting with the top left grid and working to the right, top row then bottom row.",
+            "img": "https://firebasestorage.googleapis.com/v0/b/questionandanswer-96480.appspot.com/o/images%2F3050613-inline-i-2-googles-new-logo-copy.png?alt=media&token=b1538402-2db3-44e9-87a4-fe036e372b07"
+        }
+    ]
+}

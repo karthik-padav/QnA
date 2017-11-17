@@ -1,0 +1,45 @@
+{
+    "title": "Aptitude",
+    "aptiList": [
+        {
+            "id": "1",
+            "topic": "Problems on Trains",
+            "fileName": "trains"
+        },
+        {
+            "id": "2",
+            "topic": "Time and Distance",
+            "fileName": "timeAndDistance"
+        },
+        {
+            "id": "3",
+            "topic": "Height and Distance",
+            "fileName": "heightAndDistance"
+        },
+        {
+            "id": "4",
+            "topic": "Time and Work",
+            "fileName": "timeAndWork"
+        },
+        {
+            "id": "5",
+            "topic": "Simple Interest",
+            "fileName": "SimpleInterest"
+        },
+        {
+            "id": "6",
+            "topic": "Compound Interest",
+            "fileName": "CompoundInterest"
+        },
+        {
+            "id": "7",
+            "topic": "Partnership",
+            "fileName": "Partnership"
+        },
+        {
+            "id": "8",
+            "topic": "Profit and Loss",
+            "fileName": "ProfitAndLoss"
+        }
+    ]
+}

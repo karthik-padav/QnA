@@ -100,3 +100,61 @@ body {
 .lang-list a {
     text-decoration: none;
 }
+
+/* Apititude Answer css */
+ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+ 
+ol>li {
+  margin:0;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+ 
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item, upper-alpha) ".";
+  color:rgb(17, 0, 255);
+}
+
+.solution-css table.ga-tbl-answer tr.ga-tr-divident {
+    white-space: nowrap;
+}
+.solution-css .ga-td-line-rpad {
+    padding-right: 7px;
+    vertical-align: middle;
+}
+.solution-css .ga-td-line {
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: auto;
+}
+.solution-css img {
+    vertical-align: middle;
+    border: 0;
+    outline: none;
+}
+.solution-css .ga-td-divident {
+    border-bottom: 1px solid #000;
+    vertical-align: bottom;
+    padding-bottom: 2px;
+}
+.solution-css .ga-td-line {
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: auto;
+}
+.bix-ans-description {
+    line-height: 1.7;
+}

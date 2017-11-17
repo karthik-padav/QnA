@@ -1,0 +1,38 @@
+<div class="container-fluid nav-margin-bottom">
+  <div class="row">
+    <div class="col col-sm-2">
+      <app-aptitude-sidebar></app-aptitude-sidebar>
+    </div>
+    <div class="col col-sm-7">
+      <h3>{{aptitudeQnA?.title}}</h3>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default" *ngFor="let apti of aptitudeQnA?.qna">
+          <div class="panel-heading">
+            <p *ngIf="apti.id">id {{ apti.id }}</p>
+            <p *ngIf="apti.question">{{ apti.question }}</p>
+            <div class="options" *ngIf="apti.options">
+              <ol type="A">
+                <li *ngFor="let opt of apti?.options">{{opt?.option}}</li>
+              </ol>
+            </div>
+            <h4 class="panel-title text-right">
+              <a data-toggle="collapse" data-parent="#accordion" href="{{'#collapse' + apti.id}}">Answer</a>
+            </h4>
+          </div>
+          <div id="{{'collapse' + apti.id}}" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="explanation solution-css">
+                  <p *ngIf="apti.answer"><strong>Answer :</strong> {{apti?.answer}}</p>
+                  <p *ngIf="apti.explanation"><strong>Explanation :</strong></p>
+                  <p *ngIf="apti.explanation" [innerHTML]="apti.explanation"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-sm-3">
+      ASD
+    </div>
+  </div>
+</div>

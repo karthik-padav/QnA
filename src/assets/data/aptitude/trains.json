@@ -1,0 +1,41 @@
+{
+    "title": "Problems on Trains",
+    "qna": [
+        {
+            "id": "1",
+            "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+            "options": [{
+                "option" : "120 metres"
+            },
+            {
+                "option" : "180 metres"
+            },
+            {
+                "option" : "324 metres"
+            },
+            {
+                "option" : "150 metres"
+            }],
+            "answer":"Option D",
+            "explanation": "<div class='bix-ans-description'> <p> <table class='ga-tbl-answer' cellpadding='0' cellspacing='0'> <tbody><tr class='ga-tr-divident' align='center'> <td class='ga-td-line-rpad' rowspan='2'>Speed of the train relative to man =</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-oparen-h1.gif'></td> <td class='ga-td-divident'>125</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-cparen-h1.gif'>m/sec</td> </tr> <tr class='ga-tr-divisor' align='center'> <td class='ga-td-divisor'>10</td> </tr> </tbody></table> </p> <p> <table class='ga-tbl-answer' cellpadding='0' cellspacing='0'> <tbody><tr class='ga-tr-divident' align='center'> <td class='ga-td-line-rpad' rowspan='2'>   =</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-oparen-h1.gif'></td> <td class='ga-td-divident'>25</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-cparen-h1.gif'>m/sec.</td> </tr> <tr class='ga-tr-divisor' align='center'> <td class='ga-td-divisor'>2</td> </tr> </tbody></table> </p> <p> <table class='ga-tbl-answer' cellpadding='0' cellspacing='0'> <tbody><tr class='ga-tr-divident' align='center'> <td class='ga-td-line-rpad' rowspan='2'>   =</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-oparen-h1.gif'></td> <td class='ga-td-divident'>25</td> <td class='ga-td-line-lrpad' rowspan='2'>x</td> <td class='ga-td-divident'>18</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-cparen-h1.gif'>km/hr</td> </tr> <tr class='ga-tr-divisor' align='center'> <td class='ga-td-divisor'>2</td> <td class='ga-td-divisor'>5</td> </tr> </tbody></table> </p> <p>   = 45 km/hr.</p> <p>Let the speed of the train be <i class='ga-var'>x</i> km/hr. Then, relative speed = (<i class='ga-var'>x</i> - 5) km/hr.</p> <p><img src='./assets/img/1-sym-tfr.gif'> <i class='ga-var'>x</i> - 5 = 45     <img src='./assets/img/1-sym-imp.gif'>     <i class='ga-var'>x</i> = 50 km/hr.</p> </div>"
+        },
+        {
+            "id": "2",
+            "question": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
+            "options": [{
+                "option" : "45 km/hr"
+            },
+            {
+                "option" : "50 km/hr"
+            },
+            {
+                "option" : "54 km/hr"
+            },
+            {
+                "option" : "55 km/hr"
+            }],
+            "answer":"Option B",
+            "explanation": "<div class='bix-ans-description'> <p> <table class='ga-tbl-answer' cellpadding='0' cellspacing='0'> <tbody><tr class='ga-tr-divident' align='center'> <td class='ga-td-line-rpad' rowspan='2'>Speed of the train relative to man =</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-oparen-h1.gif'></td> <td class='ga-td-divident'>125</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-cparen-h1.gif'>m/sec</td> </tr> <tr class='ga-tr-divisor' align='center'> <td class='ga-td-divisor'>10</td> </tr> </tbody></table> </p> <p> <table class='ga-tbl-answer' cellpadding='0' cellspacing='0'> <tbody><tr class='ga-tr-divident' align='center'> <td class='ga-td-line-rpad' rowspan='2'>   =</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-oparen-h1.gif'></td> <td class='ga-td-divident'>25</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-cparen-h1.gif'>m/sec.</td> </tr> <tr class='ga-tr-divisor' align='center'> <td class='ga-td-divisor'>2</td> </tr> </tbody></table> </p> <p> <table class='ga-tbl-answer' cellpadding='0' cellspacing='0'> <tbody><tr class='ga-tr-divident' align='center'> <td class='ga-td-line-rpad' rowspan='2'>   =</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-oparen-h1.gif'></td> <td class='ga-td-divident'>25</td> <td class='ga-td-line-lrpad' rowspan='2'>x</td> <td class='ga-td-divident'>18</td> <td class='ga-td-line' rowspan='2'><img src='./assets/img/1-sym-cparen-h1.gif'>km/hr</td> </tr> <tr class='ga-tr-divisor' align='center'> <td class='ga-td-divisor'>2</td> <td class='ga-td-divisor'>5</td> </tr> </tbody></table> </p> <p>   = 45 km/hr.</p> <p>Let the speed of the train be <i class='ga-var'>x</i> km/hr. Then, relative speed = (<i class='ga-var'>x</i> - 5) km/hr.</p> <p><img src='./assets/img/1-sym-tfr.gif'> <i class='ga-var'>x</i> - 5 = 45     <img src='./assets/img/1-sym-imp.gif'>     <i class='ga-var'>x</i> = 50 km/hr.</p> </div>"
+        }
+    ]
+}

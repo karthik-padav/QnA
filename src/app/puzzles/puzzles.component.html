@@ -1,0 +1,41 @@
+<div class="container-fluid nav-margin-bottom">
+  <div class="row">
+    <div class="col col-sm-2">
+      asd
+    </div>
+    <div class="col col-sm-7">
+      <h3>{{puzzles?.title}}</h3>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default" *ngFor="let puzzle of puzzles?.qna">
+          <div class="panel-heading">
+            <p>id {{ puzzle.id }}</p>
+            <p *ngIf="puzzle.question">{{ puzzle.question }}</p>
+            <div class="puzzle-image">
+              <img *ngIf="puzzle.img"
+                  [src]="puzzle.img"
+                  (load)="loaded = true"
+                  [hidden]="!loaded"
+                  alt=""
+                  onError="this.src='https://image.flaticon.com/icons/png/512/9/9188.png';"/>
+              <img
+                  src="https://maxcdn.icons8.com/Share/icon/User_Interface//full_image1600.png"
+                  [hidden]="loaded">
+            </div>
+            <h4 class="panel-title text-right">
+              <a data-toggle="collapse" data-parent="#accordion" href="{{'#collapse' + puzzle.id}}">Answer</a>
+            </h4>
+          </div>
+          <div id="{{'collapse' + puzzle.id}}" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p *ngIf="puzzle.answer"><strong>Answer :</strong> {{ puzzle.answer }}</p>
+              <p *ngIf="puzzle.explanation"><strong>Explanation :</strong> {{ puzzle.explanation }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-sm-3">
+      ASD
+    </div>
+  </div>
+</div>

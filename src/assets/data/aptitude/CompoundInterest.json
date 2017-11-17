@@ -1,0 +1,45 @@
+{
+    "title": "Compound Interest",
+    "qna": [
+        {
+            "id": "1",
+            "question": "Problems on Trains",
+            "explanation": "trains"
+        },
+        {
+            "id": "2",
+            "question": "Time and Distance",
+            "explanation": "timeAndDistance"
+        },
+        {
+            "id": "3",
+            "question": "Height and Distance",
+            "explanation": "heightAndDistance"
+        },
+        {
+            "id": "4",
+            "question": "Time and Work",
+            "explanation": "timeAndWork"
+        },
+        {
+            "id": "5",
+            "question": "Simple Interest",
+            "explanation": "SimpleInterest"
+        },
+        {
+            "id": "6",
+            "question": "Compound Interest",
+            "explanation": "CompoundInterest"
+        },
+        {
+            "id": "7",
+            "question": "Partnership",
+            "explanation": "Partnership"
+        },
+        {
+            "id": "8",
+            "question": "Profit and Loss",
+            "explanation": "ProfitAndLoss"
+        }
+    ]
+}

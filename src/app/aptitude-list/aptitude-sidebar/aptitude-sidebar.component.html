@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <li class="list-group-item"
+    (click) = "goToAptitude(aptiList.fileName)"
+    *ngFor = "let aptiList of aptitudeList?.aptiList"
+    [ngClass] = "(aptiList.fileName == activePath)?'active':''">
+      {{aptiList.topic}}
+    </li>
+</ul>

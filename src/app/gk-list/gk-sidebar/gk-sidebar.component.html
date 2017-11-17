@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <li class="list-group-item"
+    (click) = "goToGK(gk.fileName)"
+    *ngFor = "let gk of gkList?.gkList"
+    [ngClass] = "(gk.fileName == activePath)?'active':''">
+      {{gk.topic}}
+    </li>
+</ul>

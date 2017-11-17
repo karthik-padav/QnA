@@ -1,0 +1,39 @@
+{
+    "title": "Physics",
+    "qna": [
+        {
+            "id": "1",
+            "question": "Grand Central Terminal, Park Avenue, New York is the world's",
+            "options": [{
+                "option" : "largest railway station"
+            },
+            {
+                "option" : "highest railway station"
+            },
+            {
+                "option" : "longest railway station"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "2",
+            "question": "Entomology is the science that studies",
+            "options": [{
+                "option" : "Behavior of human beings"
+            },
+            {
+                "option" : "Insects"
+            },
+            {
+                "option" : "The origin and history of technical and scientific terms"
+            },
+            {
+                "option" : "The formation of rocks"
+            }],
+            "answer":"Option B"
+        }
+    ]
+}

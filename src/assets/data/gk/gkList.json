@@ -1,0 +1,50 @@
+{
+    "title": "GK",
+    "gkList": [
+        {
+            "id": "1",
+            "topic": "Basic General Knowledge",
+            "fileName": "basic"
+        },
+        {
+            "id": "2",
+            "topic": "Indian History",
+            "fileName": "history"
+        },
+        {
+            "id": "3",
+            "topic": "Famous Personalities",
+            "fileName": "personalities"
+        },
+        {
+            "id": "4",
+            "topic": "General Science",
+            "fileName": "science"
+        },
+        {
+            "id": "5",
+            "topic": "Indian Politics",
+            "fileName": "politics"
+        },
+        {
+            "id": "6",
+            "topic": "Physics",
+            "fileName": "physics"
+        },
+        {
+            "id": "7",
+            "topic": "World Geography",
+            "fileName": "geography"
+        },
+        {
+            "id": "8",
+            "topic": "Indian Economy",
+            "fileName": "economy"
+        },
+        {
+            "id": "9",
+            "topic": "Chemistry",
+            "fileName": "chemistry"
+        }
+    ]
+}

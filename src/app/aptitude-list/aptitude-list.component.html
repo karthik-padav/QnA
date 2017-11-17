@@ -1,0 +1,20 @@
+<div class="container-fluid nav-margin-bottom" id="apti-q">
+  <div class="row">
+    <div class="col col-sm-2">
+      asd
+    </div>
+    <div class="col col-sm-7 lang-list">
+        <h3>{{aptitudeList?.title}}</h3>
+      <div class="row">
+          <div class="col col-sm-6" *ngFor="let aptitude of aptitudeList?.aptiList">
+            <div class="text-left lang-box light-orange shineOnHover" (click)="goToAptitude(aptitude.fileName)">
+              <p class="lang-title">{{aptitude.topic}}</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col col-sm-3">
+      ASD
+    </div>
+  </div>
+</div>
