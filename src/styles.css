@@ -26,7 +26,7 @@
  * grows and fades out 
  */
 .shineOnHover:hover:after {
-    width: 120%;
+    width: 100%;
     background-color: rgba(255,255,255,0);
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
@@ -41,7 +41,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .nav-margin-bottom {
-    margin-top: 125px;
+    margin-top: 52px;
 }
 .navbar {
     width: 100%;
@@ -52,26 +52,19 @@ body {
 /* BG Colors */
 .light-orange{
     background-color: #fdf3d8;
-    border-color: #f6c444;
-}
-.light-pink{
-    background-color: #fae3e9;
-    border-color: #e97891;
+    border-color: #e49203;
 }
 .light-blue{
     background-color: #e3edf9;
-    border-color: #71a6e0
-}
-.light-purple{
-    background-color: #f4e9f7;
-    border-color: #c18ed8;
+    border-color: #0ea9bb
 }
 .light-green{
     background-color: #cef6ed;
-    border-color: #08d3a4;
+    border-color: #006c4d;
 }
 section {
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .f-lg {
     font-size: 20px;
@@ -139,7 +132,10 @@ section {
     font-weight: bold;
     margin: 0;
 }
-.quiz-wrapper, .quiz-logo img {
+#aptitude-wrapper .view-more-btn p, #gk-wrapper .view-more-btn p {
+    padding: 4px 0;
+}
+.quiz-wrapper, .quiz-logo img, .aptitude-logo img, .gk-logo img {
     width: 100px;
 }
 
@@ -179,7 +175,7 @@ ol>li {
   counter-increment:item;
 }
  
-.solution-css ol>li:before {
+ol>li:before {
   display:inline-block;
   width:1.5em;
   padding-right:0.5em;
@@ -221,3 +217,10 @@ ol>li {
 .bix-ans-description {
     line-height: 1.7;
 }
+/* Apititude Answer css ends */
+
+/* Footer css */
+footer{
+    margin-top: 50px;
+}
+/* Footer css ends */

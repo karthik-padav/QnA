@@ -6,10 +6,9 @@
     <div class="col col-sm-7">
       <h3>{{gkQnA?.title}}</h3>
       <div class="panel-group" id="accordion">
-        <div class="panel panel-default" *ngFor="let gk of gkQnA?.qna">
+        <div class="panel panel-default" *ngFor="let gk of gkQnA?.qna; let id = index">
           <div class="panel-heading">
-            <p>id {{ gk.id }}</p>
-            <p>{{ gk.question }}</p>
+            <p><strong>{{id + 1}}. </strong>{{ gk.question }}</p>
             <div class="options" *ngIf="gk.options">
               <ol type="A">
                 <li *ngFor="let opt of gk?.options">{{opt?.option}}</li>

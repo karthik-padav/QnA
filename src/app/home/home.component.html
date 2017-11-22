@@ -26,7 +26,7 @@
         <div class="item slider3">
           <div class="carousel-caption">
             <h1>Puzzles</h1>
-            <a class="banner-btn" routerLink="/puzzles">Start Learning Now</a>
+            <a class="banner-btn" routerLink="/puzzles">Start Now</a>
           </div>
         </div>
       </div>
@@ -42,12 +42,12 @@
       </a>
     </div>
 
-  <section class="container">
-    <div id="QnA-wrapper">
+  <section class="container-fluid">
+    <div id="QnA-wrapper" class="container">
       <div class="row">
         <div class="col col-md-4">
           <div class="QnA-logo text-center">
-            <h1 class="f-lg">Interview Questions</h1>
+            <h1 class="f-lg">{{interviewLangList?.title}}</h1>
             <img src="./assets/img/interview-icon.png" alt="" />
           </div>
         </div>
@@ -70,18 +70,18 @@
     </div>
   </section>
   
-    <section class="container">
-      <div id="quiz-wrapper">
+    <section class="container-fluid">
+      <div id="quiz-wrapper" class="container">
         <div class="row">
           <div class="col col-md-4">
             <div class="quiz-logo text-center">
-              <h1 class="f-lg">Quiz</h1>
+              <h1 class="f-lg">{{quizLangList?.title}}</h1>
               <img src="./assets/img/quiz-icon.png" alt="" />
             </div>
           </div>
           <div class="col col-md-8">
             <div class="col col-sm-3" *ngFor="let quizLang of quizLangList?.langList; let i=index">
-              <div *ngIf="i<7" class="text-center lang-box light-orange shineOnHover" (click)="goToQuiz(quizLang.fileName)">
+              <div *ngIf="i<7" class="text-center lang-box light-blue shineOnHover" (click)="goToQuiz(quizLang.fileName)">
                 <p class="lang-title">{{quizLang.lang}}</p>
                 <div class="lang-logo">
                   <img src="assets/img/{{quizLang.images}}" alt="image">
@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="col col-sm-3" *ngIf="quizLangList?.langList.length > 7">
-              <div class="view-more-btn text-center lang-box light-orange shineOnHover" routerLink="/quiz">
+              <div class="view-more-btn text-center lang-box light-blue shineOnHover" routerLink="/quiz">
                 <p>View all</p>
               </div>
             </div>
@@ -97,5 +97,55 @@
         </div>
       </div>
     </section>
+    
+      <section class="container-fluid">
+        <div id="aptitude-wrapper" class="container">
+          <div class="row">
+            <div class="col col-md-4">
+              <div class="aptitude-logo text-center">
+                <h1 class="f-lg">{{aptitudeList?.title}}</h1>
+                <img src="./assets/img/aptitude-icon.png" alt="" />
+              </div>
+            </div>
+            <div class="col col-md-8">
+              <div class="col col-sm-6" *ngFor="let aptitudeLang of aptitudeList?.aptiList; let i=index">
+                <div *ngIf="i<5" class="text-center lang-box light-green shineOnHover" (click)="goToAptitude(aptitudeLang.fileName)">
+                  <p class="lang-title">{{aptitudeLang.topic}}</p>
+                </div>
+              </div>
+              <div class="col col-sm-6" *ngIf="aptitudeList?.aptiList.length > 5">
+                <div class="view-more-btn text-center lang-box light-green shineOnHover" routerLink="/aptitude">
+                  <p>View all</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+        <section class="container-fluid">
+          <div id="gk-wrapper" class="container">
+            <div class="row">
+              <div class="col col-md-4">
+                <div class="gk-logo text-center">
+                  <h1 class="f-lg">{{gkList?.title}}</h1>
+                  <img src="./assets/img/gk-icon.png" alt="" />
+                </div>
+              </div>
+              <div class="col col-md-8">
+                <div class="col col-sm-6" *ngFor="let gkLang of gkList?.gkList; let i=index">
+                  <div *ngIf="i<5" class="text-center lang-box light-orange shineOnHover" (click)="goTogk(gkLang.fileName)">
+                    <p class="lang-title">{{gkLang.topic}}</p>
+                  </div>
+                </div>
+                <div class="col col-sm-6" *ngIf="gkList?.gkList.length > 5">
+                  <div class="view-more-btn text-center lang-box light-orange shineOnHover" routerLink="/GK">
+                    <p>View all</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     
 </div>

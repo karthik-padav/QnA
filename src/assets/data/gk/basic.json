@@ -34,6 +34,822 @@
                 "option" : "The formation of rocks"
             }],
             "answer":"Option B"
+        },
+        {
+            "id": "3",
+            "question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of",
+            "options": [{
+                "option" : "Asia"
+            },
+            {
+                "option" : "Africa"
+            },
+            {
+                "option" : "Europe"
+            },
+            {
+                "option" : "Australia"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "4",
+            "question": "Garampani sanctuary is located at",
+            "options": [{
+                "option" : "Junagarh, Gujarat"
+            },
+            {
+                "option" : "Diphu, Assam"
+            },
+            {
+                "option" : "Kohima, Nagaland"
+            },
+            {
+                "option" : "Gangtok, Sikkim"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "5",
+            "question": "For which of the following disciplines is Nobel Prize awarded?",
+            "options": [{
+                "option" : "Physics and Chemistry"
+            },
+            {
+                "option" : "Physiology or Medicine"
+            },
+            {
+                "option" : "Literature, Peace and Economics"
+            },
+            {
+                "option" : "All of the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "6",
+            "question": "Hitler party which came into power in 1933 is known as",
+            "options": [{
+                "option" : "Labour Party"
+            },
+            {
+                "option" : "Democratic Party"
+            },
+            {
+                "option" : "Nazi Party"
+            },
+            {
+                "option" : "Ku-Klux-Klan"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "7",
+            "question": "FFC stands for",
+            "options": [{
+                "option" : "Foreign Finance Corporation"
+            },
+            {
+                "option" : "Film Finance Corporation"
+            },
+            {
+                "option" : "Federation of Football Council"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "8",
+            "question": "Fastest shorthand writer was",
+            "options": [{
+                "option" : "Dr. G. D. Bist"
+            },
+            {
+                "option" : "J.R.D. Tata"
+            },
+            {
+                "option" : "J.M. Tagore"
+            },
+            {
+                "option" : "Khudada Khan"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "9",
+            "question": "Epsom (England) is the place associated with",
+            "options": [{
+                "option" : "Horse racing"
+            },
+            {
+                "option" : "Polo"
+            },
+            {
+                "option" : "Shooting"
+            },
+            {
+                "option" : "Snooker"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "10",
+            "question": "First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in",
+            "options": [{
+                "option" : "1967"
+            },
+            {
+                "option" : "1968"
+            },
+            {
+                "option" : "1958"
+            },
+            {
+                "option" : "1922"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "11",
+            "question": "Galileo was an Italian astronomer who",
+            "options": [{
+                "option" : "developed the telescope"
+            },
+            {
+                "option" : "discovered four satellites of Jupiter"
+            },
+            {
+                "option" : "discovered that the movement of pendulum produces a regular time measurement"
+            },
+            {
+                "option" : "All of the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "12",
+            "question": "Habeas Corpus Act 1679",
+            "options": [{
+                "option" : "states that no one was to be imprisoned without a writ or warrant stating the charge against him"
+            },
+            {
+                "option" : "provided facilities to a prisoner to obtain either speedy trial or release in bail"
+            },
+            {
+                "option" : "safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders"
+            },
+            {
+                "option" : "All of the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "13",
+            "question": "Exposure to sunlight helps a person improve his health because",
+            "options": [{
+                "option" : "the infrared light kills bacteria in the body"
+            },
+            {
+                "option" : "resistance power increases"
+            },
+            {
+                "option" : "the pigment cells in the skin get stimulated and produce a healthy tan"
+            },
+            {
+                "option" : "the ultraviolet rays convert skin oil into Vitamin D"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "14",
+            "question": "Golf player Vijay Singh belongs to which country?",
+            "options": [{
+                "option" : "USA"
+            },
+            {
+                "option" : "Fiji"
+            },
+            {
+                "option" : "India"
+            },
+            {
+                "option" : "UK"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "15",
+            "question": "Guarantee to an exporter that the importer of his goods will pay immediately for the goods ordered by him, is known as",
+            "options": [{
+                "option" : "Letter of Credit (L/C)"
+            },
+            {
+                "option" : "laissezfaire"
+            },
+            {
+                "option" : "inflation"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "16",
+            "question": "First Afghan War took place in",
+            "options": [{
+                "option" : "1839"
+            },
+            {
+                "option" : "1843"
+            },
+            {
+                "option" : "1833"
+            },
+            {
+                "option" : "1848"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "17",
+            "question": "Gulf cooperation council was originally formed by",
+            "options": [{
+                "option" : "Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and United Arab Emirates"
+            },
+            {
+                "option" : "Second World Nations"
+            },
+            {
+                "option" : "Third World Nations"
+            },
+            {
+                "option" : "Fourth World Nations"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "18",
+            "question": "First China War was fought between",
+            "options": [{
+                "option" : "China and Britain"
+            },
+            {
+                "option" : "China and France"
+            },
+            {
+                "option" : "China and Egypt"
+            },
+            {
+                "option" : "China and Greek"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "19",
+            "question": "Dumping is",
+            "options": [{
+                "option" : "selling of goods abroad at a price well below the production cost at the home market price"
+            },
+            {
+                "option" : "the process by which the supply of a manufacture's product remains low in the domestic market, which batches him better price"
+            },
+            {
+                "option" : "prohibited by regulations of GATT"
+            },
+            {
+                "option" : "All of the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "20",
+            "question": "For the Olympics and World Tournaments, the dimensions of basketball court are",
+            "options": [{
+                "option" : "26 m x 14 m"
+            },
+            {
+                "option" : "28 m x 15 m"
+            },
+            {
+                "option" : "27 m x 16 m"
+            },
+            {
+                "option" : "28 m x 16 m"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "21",
+            "question": "Federation Cup, World Cup, Allywyn International Trophy and Challenge Cup are awarded to winners of",
+            "options": [{
+                "option" : "Tennis"
+            },
+            {
+                "option" : "Volleyball"
+            },
+            {
+                "option" : "Basketball"
+            },
+            {
+                "option" : "Cricket"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "22",
+            "question": "Each year World Red Cross and Red Crescent Day is celebrated on",
+            "options": [{
+                "option" : "May 8"
+            },
+            {
+                "option" : "May 18"
+            },
+            {
+                "option" : "June 8"
+            },
+            {
+                "option" : "June 18"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "23",
+            "question": "Famous sculptures depicting art of love built some time in 950 AD – 1050 AD are",
+            "options": [{
+                "option" : "Khajuraho temples"
+            },
+            {
+                "option" : "Jama Masjid"
+            },
+            {
+                "option" : "Sun temple"
+            },
+            {
+                "option" : "Mahabalipuram temples"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "24",
+            "question": "Gravity setting chambers are used in industries to remove",
+            "options": [{
+                "option" : "SOx"
+            },
+            {
+                "option" : "NOx"
+            },
+            {
+                "option" : "suspended particulate matter"
+            },
+            {
+                "option" : "CO"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "25",
+            "question": "Guwahati High Court is the judicature of",
+            "options": [{
+                "option" : "Nagaland"
+            },
+            {
+                "option" : "Arunachal Pradesh"
+            },
+            {
+                "option" : "Assam"
+            },
+            {
+                "option" : "All of the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "26",
+            "question": "Friction can be reduced by changing from",
+            "options": [{
+                "option" : "sliding to rolling"
+            },
+            {
+                "option" : "rolling to sliding"
+            },
+            {
+                "option" : "potential energy to kinetic energy"
+            },
+            {
+                "option" : "dynamic to static"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "27",
+            "question": "During eleventh Antarctic Expedition in Nov. 1991/March 1992 ____ was installed.",
+            "options": [{
+                "option" : "SODAR (SOnic Detection And Ranging)"
+            },
+            {
+                "option" : "Second Permanent Station 'Maitree'"
+            },
+            {
+                "option" : "First permanent station 'Dakshin Gangotri'"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "28",
+            "question": "From the following, choose the set in which names of Secretary-Generals of the UNO are arranged in correct chronological order?",
+            "options": [{
+                "option" : "U Thant, Kurt Waldheim, Dag Hammarskjoeld, Trygve Lie."
+            },
+            {
+                "option" : "Trygve Lie, Dag Hammarskjoeld, U Thant, Kurt Waldheim."
+            },
+            {
+                "option" : "Trygve Lie, U Thant , Dag Hammarskjoeld, Kurt Waldheim."
+            },
+            {
+                "option" : "U Thant, Dag Hammarskjoeld, Trygve Lie, Kurt Waldheim."
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "29",
+            "question": "Fire temple is the place of worship of which of the following religion?",
+            "options": [{
+                "option" : "Taoism"
+            },
+            {
+                "option" : "Judaism"
+            },
+            {
+                "option" : "Zoroastrianism (Parsi Religion)"
+            },
+            {
+                "option" : "Shintoism"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "30",
+            "question": "Film and TV institute of India is located at",
+            "options": [{
+                "option" : "Pune (Maharashtra)"
+            },
+            {
+                "option" : "Rajkot (Gujarat)"
+            },
+            {
+                "option" : "Pimpri (Maharashtra)"
+            },
+            {
+                "option" : "Perambur (Tamilnadu)"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "31",
+            "question": "Georgia, Uzbekistan and Turkmenistan became the members of UNO in",
+            "options": [{
+                "option" : "1991"
+            },
+            {
+                "option" : "1992"
+            },
+            {
+                "option" : "1993"
+            },
+            {
+                "option" : "1994"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "32",
+            "question": "Guru Gobind Singh was",
+            "options": [{
+                "option" : "the 10th Guru of the Sikhs"
+            },
+            {
+                "option" : "founder of Khalsa, the inner council of the Sikhs in 1699"
+            },
+            {
+                "option" : "author of Dasam Granth"
+            },
+            {
+                "option" : "All the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "33",
+            "question": "Hermann Scheer (Germany) received right Livelihood Award in 1999 for",
+            "options": [{
+                "option" : "his indefatigable work for thepromotion of solar energy worldwide"
+            },
+            {
+                "option" : "his long standing efforts to end the impunity of dictators"
+            },
+            {
+                "option" : "showing that organic agriculture is a key to both environmental sustainability and food security"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "34",
+            "question": "Germany signed the Armistice Treaty on ____ and World War I ended",
+            "options": [{
+                "option" : "January 19, 1918"
+            },
+            {
+                "option" : "May 30, 1918"
+            },
+            {
+                "option" : "November 11, 1918"
+            },
+            {
+                "option" : "February 15, 1918"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "35",
+            "question": "During World War II, when did Germany attack France?",
+            "options": [{
+                "option" : "1940"
+            },
+            {
+                "option" : "1941"
+            },
+            {
+                "option" : "1942"
+            },
+            {
+                "option" : "1943"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "36",
+            "question": "Frederick Sanger is a twice recipient of the Nobel Prize for",
+            "options": [{
+                "option" : "Chemistry in 1958 and 1980"
+            },
+            {
+                "option" : "Physics in 1956 and 1972"
+            },
+            {
+                "option" : "Chemistry in 1954 and Peace in 1962"
+            },
+            {
+                "option" : "Physics in 1903 and Chemistry in 1911"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "37",
+            "question": "The ozone layer restricts",
+            "options": [{
+                "option" : "Visible light"
+            },
+            {
+                "option" : "Infrared radiation"
+            },
+            {
+                "option" : "X-rays and gamma rays"
+            },
+            {
+                "option" : "Ultraviolet radiation"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "38",
+            "question": "Eugenics is the study of",
+            "options": [{
+                "option" : "altering human beings by changing their genetic components"
+            },
+            {
+                "option" : "people of European origin"
+            },
+            {
+                "option" : "different races of mankind"
+            },
+            {
+                "option" : "genetic of plants"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "39",
+            "question": "Euclid was",
+            "options": [{
+                "option" : "Greek mathematician"
+            },
+            {
+                "option" : "Contributor to the use of deductive principles of logic as the basis of geometry"
+            },
+            {
+                "option" : "Propounded the geometrical theorems"
+            },
+            {
+                "option" : "All of the above"
+            }],
+            "answer":"Option D"
+        },
+        {
+            "id": "40",
+            "question": "Ecology deals with",
+            "options": [{
+                "option" : "Birds"
+            },
+            {
+                "option" : "Cell formation"
+            },
+            {
+                "option" : "Relation between organisms and their environment"
+            },
+            {
+                "option" : "Tissues"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "41",
+            "question": "Filaria is caused by",
+            "options": [{
+                "option" : "Bacteria"
+            },
+            {
+                "option" : "Mosquito"
+            },
+            {
+                "option" : "Protozoa"
+            },
+            {
+                "option" : "Virus"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "42",
+            "question": "Goa Shipyard Limited (GSL) was established in",
+            "options": [{
+                "option" : "1958"
+            },
+            {
+                "option" : "1957"
+            },
+            {
+                "option" : "1956"
+            },
+            {
+                "option" : "1955"
+            }],
+            "answer":"Option B"
+        },
+        {
+            "id": "43",
+            "question": "DRDL stands for",
+            "options": [{
+                "option" : "Defence Research and Development Laboratary"
+            },
+            {
+                "option" : "Department of Research and Development Laboratory"
+            },
+            {
+                "option" : "Differential Research and Documentation Laboratary"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "44",
+            "question": "Who was the first Indian Chief of Army Staff of the Indian Army ?",
+            "options": [{
+                "option" : "Gen. K.M. Cariappa"
+            },
+            {
+                "option" : "Vice-Admiral R.D. Katari"
+            },
+            {
+                "option" : "Gen. Maharaja Rajendra Singhji"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "45",
+            "question": "FRS stands for",
+            "options": [{
+                "option" : "Fellow Research System"
+            },
+            {
+                "option" : "Federation of Regulation Society"
+            },
+            {
+                "option" : "Fellow of Royal Society"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "46",
+            "question": "Escape velocity of a rocket fired from the earth towards the moon is a velocity to get rid of the",
+            "options": [{
+                "option" : "Earth's gravitational pull"
+            },
+            {
+                "option" : "Moon's gravitational pull"
+            },
+            {
+                "option" : "Centripetal force due to the earth's rotation"
+            },
+            {
+                "option" : "Pressure of the atmosphere"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "47",
+            "question": "GATT (General Agreement on Tariffs and Trade) is",
+            "options": [{
+                "option" : "international agreement signed in 1947 between non-communist nations with the object of encouraging international trade unobstructed by tariff barriers"
+            },
+            {
+                "option" : "agreement which seeks to achieve its aim by arranging and encouraging bargaining with trade concessions between members"
+            },
+            {
+                "option" : "Both option A and B"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "48",
+            "question": "Coral reefs in India can be found in",
+            "options": [{
+                "option" : "the coast of Orissa"
+            },
+            {
+                "option" : "Waltair"
+            },
+            {
+                "option" : "Rameshwaram"
+            },
+            {
+                "option" : "Trivandrum"
+            }],
+            "answer":"Option C"
+        },
+        {
+            "id": "49",
+            "question": "For safety, the fuse wire used in the mains for household supply of electricity must be made of metal having",
+            "options": [{
+                "option" : "low melting point"
+            },
+            {
+                "option" : "high resistance"
+            },
+            {
+                "option" : "high melting point"
+            },
+            {
+                "option" : "low specific heat"
+            }],
+            "answer":"Option A"
+        },
+        {
+            "id": "50",
+            "question": "Golden Temple, Amritsar is India's",
+            "options": [{
+                "option" : "largest Gurdwara"
+            },
+            {
+                "option" : "oldest Gurudwara"
+            },
+            {
+                "option" : "Both option A and B are correct"
+            },
+            {
+                "option" : "None of the above"
+            }],
+            "answer":"Option A"
         }
     ]
 }

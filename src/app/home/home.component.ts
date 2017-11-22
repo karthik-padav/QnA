@@ -11,16 +11,24 @@ export class HomeComponent implements OnInit {
 
   interviewLangList: any[];
   quizLangList: any[];
+  aptitudeList: any[];
+  gkList: any[];
   constructor( private newService: MyDataService,
                 private router: Router
               ) { }
 
   ngOnInit() {
     // QnA
-    this.newService.interviewLangList().subscribe((data) => {this.interviewLangList = data});
+    this.newService.interviewLangList().subscribe((data) => { this.interviewLangList = data });
 
     // Quiz
-    this.newService.quizLangList().subscribe((data) => {this.quizLangList = data;console.log(this.quizLangList);});
+    this.newService.quizLangList().subscribe((data) => { this.quizLangList = data });
+
+    // Aptitude
+    this.newService.getAptitudeList().subscribe((data) => { this.aptitudeList = data });
+
+    // Genaral knowledge
+    this.newService.getGKList().subscribe((data) => {this.gkList = data})
   }
 
   goToQnA(lang){
@@ -29,5 +37,13 @@ export class HomeComponent implements OnInit {
 
   goToQuiz(lang){
     this.router.navigate(['/quiz', lang]);
+  }
+
+  goToAptitude(lang){
+    this.router.navigate(['/aptitude', lang]);
+  }
+
+  goTogk(lang){
+    this.router.navigate(['/GK', lang]);
   }
 }
